@@ -68,7 +68,6 @@ _(Either interface the sensor with the development board or just write a functio
 
         ![Connection after disconenction](https://github.com/user-attachments/assets/d82d9ec7-65c8-45bc-b1e8-f94f07185494)
 
-6. Reference Log Output:
-
-  - [ESP-IDF Terminal Log](https://github.com/GodSpeeD-17/BLE_ESP_IDF/blob/main/logs/ESP-IDF%20Terminal.txt)
-  - [nRF Connectivity Application Log](https://github.com/GodSpeeD-17/BLE_ESP_IDF/blob/main/logs/nRF%20Connectivity%20log.txt)
+6. Log Output:
+      - [ESP-IDF Terminal Log](https://github.com/GodSpeeD-17/BLE_ESP_IDF/blob/main/logs/ESP-IDF%20Terminal.txt)
+      - [nRF Connectivity Application Log](https://github.com/GodSpeeD-17/BLE_ESP_IDF/blob/main/logs/nRF%20Connectivity%20log.txt)
