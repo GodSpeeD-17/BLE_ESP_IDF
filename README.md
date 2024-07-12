@@ -75,5 +75,5 @@ _(Either interface the sensor with the development board or just write a functio
       - [nRF Connectivity Application Log](https://github.com/GodSpeeD-17/BLE_ESP_IDF/blob/main/logs/nRF%20Connectivity%20log.txt)
 
 7. Screen Recording:
-       - [ESP-IDF Terminal Screen Recording](https://github.com/GodSpeeD-17/BLE_ESP_IDF/blob/main/Videos/BLE%20ESP-IDF%20Terminal.mp4)
-       - [nRF Connectivity Application Screen Recording](https://github.com/GodSpeeD-17/BLE_ESP_IDF/blob/main/Videos/nRF%20Connectivity%20Video.mp4)
+      - [ESP-IDF Terminal Screen Recording](https://github.com/GodSpeeD-17/BLE_ESP_IDF/blob/main/Videos/BLE%20ESP-IDF%20Terminal.mp4)
+      - [nRF Connectivity Application Screen Recording](https://github.com/GodSpeeD-17/BLE_ESP_IDF/blob/main/Videos/nRF%20Connectivity%20Video.mp4)
