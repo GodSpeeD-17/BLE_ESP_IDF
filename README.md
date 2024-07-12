@@ -3,7 +3,7 @@
 # Problem Statement:-
 
 ## To Do: 
-### *** Write a code for the Development Board (ESP32 or Arduino board with bluetooth on it) that you choose to broadcast bluetooth services. (not a beacon) ***
+### ** Write a code for the Development Board (ESP32 or Arduino board with bluetooth on it) that you choose to broadcast bluetooth services. (not a beacon) **
 
 ## Services to broadcast:
 1. Temperature Measurement
