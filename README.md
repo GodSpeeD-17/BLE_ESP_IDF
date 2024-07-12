@@ -31,3 +31,10 @@ _(Either interface the sensor with the development board or just write a functio
   - After updation of values, calls the function specified in bluetooth component to update the value and notify the client  
 
 ## Screenshots:
+1. Code compiled and uploaded successfully
+![Code Compiled and Uploaded successfully](https://github.com/user-attachments/assets/8a8cccaa-d5ec-45ea-a8ec-2e5005f6ed61)
+
+2. BLE Advertisement Started
+![BLE Advertisement Phase](https://github.com/user-attachments/assets/c82f458c-9e12-4310-8175-169ad77e98b3)
+
+3.  
