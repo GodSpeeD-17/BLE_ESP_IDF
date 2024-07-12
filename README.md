@@ -46,15 +46,17 @@ _(Either interface the sensor with the development board or just write a functio
 
       ![BLE sample data read request from client](https://github.com/user-attachments/assets/c5bc4776-3636-46d2-9b13-9d8ba5993568)
 
-4. BLE Data Received from ESP-32 and displayed on nRF Connect App
+4. BLE Data Received from ESP-32 and displayed on nRF Connect App (Verification)
 
   - Console:
 
-      ![Console display during request](https://github.com/user-attachments/assets/98ee7c46-c333-42a2-b4c9-29f1ff26b649)
+      ![Console display during request](https://github.com/user-attachments/assets/ddc4076d-25f6-45aa-80db-cfa69b6f9fb3)
+
     
   - nRF Connect Mobile App:
 
-      ![Temperature & Humidity Mobile Screenshot](https://github.com/user-attachments/assets/5ad80667-252a-4004-8631-6401ace8bbe7)
+      ![Temperature & Humidity Mobile Screenshot](https://github.com/user-attachments/assets/d49e477a-f655-4f50-9c39-9e80f89e34f6)
+
 
 5. Ability to still function even after disconenction of remote device
 
