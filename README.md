@@ -58,10 +58,10 @@ _(Either interface the sensor with the development board or just write a functio
 
 5. Ability to still function even after disconenction of remote device
 
-    - Disconenction:
+    - Disconnection:
 
-      + ![Disconnection event screenshot](https://github.com/user-attachments/assets/58973849-273e-40cb-b160-25c5b6c0a7bb)
+        ![Disconnection event screenshot](https://github.com/user-attachments/assets/58973849-273e-40cb-b160-25c5b6c0a7bb)
 
     - Reconnection:
 
-      + ![Connection after disconenction](https://github.com/user-attachments/assets/d82d9ec7-65c8-45bc-b1e8-f94f07185494)
+        ![Connection after disconenction](https://github.com/user-attachments/assets/d82d9ec7-65c8-45bc-b1e8-f94f07185494)
