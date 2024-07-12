@@ -936,99 +936,35 @@ _(Either interface the sensor with the development board or just write a functio
 
     
   - nRF Connectivity Application: 
-`
+
       nRF Connect, 2024-07-12
       ESP32_TEMP_HUM (B8:D6:1A:6A:B0:92)
-      V	15:11:08.171	Connecting to B8:D6:1A:6A:B0:92...
-      D	15:11:08.171	gatt = device.connectGatt(autoConnect = false, TRANSPORT_LE, preferred PHY = LE 1M)
-      D	15:11:08.602	[Broadcast] Action received: android.bluetooth.device.action.ACL_CONNECTED
-      D	15:11:08.608	[Callback] Connection state changed with status: 0 and new state: CONNECTED (2)
-      I	15:11:08.608	Connected to B8:D6:1A:6A:B0:92
-      V	15:11:08.609	Discovering services...
-      D	15:11:08.609	gatt.discoverServices()
-      I	15:11:08.922	Connection parameters updated (interval: 7.5ms, latency: 0, timeout: 5000ms)
-      D	15:11:09.102	[Callback] Services discovered with status: 0
-      I	15:11:09.102	Services discovered
-      V	15:11:09.108	Generic Attribute (0x1801)
-      - Service Changed [I] (0x2A05)
-         Client Characteristic Configuration (0x2902)
-      Generic Access (0x1800)
-      - Device Name [R] (0x2A00)
-      - Appearance [R] (0x2A01)
-      - Central Address Resolution [R] (0x2AA6)
-      Unknown Service (00000002-0000-0000-fdfd-fdfdfdfdfdfd)
-      - Temperature [N R] (0x2A6E)
-      - Humidity [N R] (0x2A6F)
-      D	15:11:09.108	gatt.setCharacteristicNotification(00002a05-0000-1000-8000-00805f9b34fb, true)
-      I	15:11:09.190	Connection parameters updated (interval: 48.75ms, latency: 0, timeout: 5000ms)
-      V	15:11:15.374	Reading characteristic 00002a6e-0000-1000-8000-00805f9b34fb
-      D	15:11:15.374	gatt.readCharacteristic(00002a6e-0000-1000-8000-00805f9b34fb)
-      I	15:11:15.449	Read Response received from 00002a6e-0000-1000-8000-00805f9b34fb, value: (0x) 2E-09
-      A	15:11:15.450	"23.50℃" received
-      V	15:11:17.887	Reading characteristic 00002a6f-0000-1000-8000-00805f9b34fb
-      D	15:11:17.887	gatt.readCharacteristic(00002a6f-0000-1000-8000-00805f9b34fb)
-      I	15:11:17.980	Read Response received from 00002a6f-0000-1000-8000-00805f9b34fb, value: (0x) E9-13
-      A	15:11:17.980	"50.97%" received
-      V	15:11:20.207	Reading characteristic 00002a6e-0000-1000-8000-00805f9b34fb
-      D	15:11:20.207	gatt.readCharacteristic(00002a6e-0000-1000-8000-00805f9b34fb)
-      I	15:11:20.272	Read Response received from 00002a6e-0000-1000-8000-00805f9b34fb, value: (0x) 91-08
-      A	15:11:20.272	"21.93℃" received
-      V	15:11:21.987	Reading characteristic 00002a6f-0000-1000-8000-00805f9b34fb
-      D	15:11:21.987	gatt.readCharacteristic(00002a6f-0000-1000-8000-00805f9b34fb)
-      I	15:11:22.076	Read Response received from 00002a6f-0000-1000-8000-00805f9b34fb, value: (0x) FF-21
-      A	15:11:22.076	"87.03%" received
-      V	15:11:24.186	Reading characteristic 00002a6e-0000-1000-8000-00805f9b34fb
-      D	15:11:24.186	gatt.readCharacteristic(00002a6e-0000-1000-8000-00805f9b34fb)
-      I	15:11:24.269	Read Response received from 00002a6e-0000-1000-8000-00805f9b34fb, value: (0x) A8-0E
-      A	15:11:24.269	"37.52℃" received
-      V	15:11:25.599	Reading characteristic 00002a6f-0000-1000-8000-00805f9b34fb
-      D	15:11:25.599	gatt.readCharacteristic(00002a6f-0000-1000-8000-00805f9b34fb)
-      I	15:11:25.683	Read Response received from 00002a6f-0000-1000-8000-00805f9b34fb, value: (0x) EA-15
-      A	15:11:25.684	"56.10%" received
-      V	15:11:27.234	Disconnecting...
-      D	15:11:27.234	gatt.disconnect()
-      D	15:11:27.278	[Callback] Connection state changed with status: 0 and new state: DISCONNECTED (0)
-      I	15:11:27.278	Disconnected
-      D	15:11:28.381	[Broadcast] Action received: android.bluetooth.device.action.ACL_DISCONNECTED
-      D	15:11:30.097	gatt.close()
-      D	15:11:30.101	wait(200)
-      V	15:11:30.302	Connecting to B8:D6:1A:6A:B0:92...
-      D	15:11:30.302	gatt = device.connectGatt(autoConnect = false, TRANSPORT_LE, preferred PHY = LE 1M)
-      D	15:11:30.561	[Broadcast] Action received: android.bluetooth.device.action.ACL_CONNECTED
-      D	15:11:30.589	[Callback] Connection state changed with status: 0 and new state: CONNECTED (2)
-      I	15:11:30.589	Connected to B8:D6:1A:6A:B0:92
-      V	15:11:30.613	Discovering services...
-      D	15:11:30.613	gatt.discoverServices()
-      I	15:11:30.861	Connection parameters updated (interval: 7.5ms, latency: 0, timeout: 5000ms)
-      D	15:11:31.053	[Callback] Services discovered with status: 0
-      I	15:11:31.053	Services discovered
-      V	15:11:31.061	Generic Attribute (0x1801)
-      - Service Changed [I] (0x2A05)
-         Client Characteristic Configuration (0x2902)
-      Generic Access (0x1800)
-      - Device Name [R] (0x2A00)
-      - Appearance [R] (0x2A01)
-      - Central Address Resolution [R] (0x2AA6)
-      Unknown Service (00000002-0000-0000-fdfd-fdfdfdfdfdfd)
-      - Temperature [N R] (0x2A6E)
-      - Humidity [N R] (0x2A6F)
-      D	15:11:31.061	gatt.setCharacteristicNotification(00002a05-0000-1000-8000-00805f9b34fb, true)
-      I	15:11:31.145	Connection parameters updated (interval: 48.75ms, latency: 0, timeout: 5000ms)
-      V	15:11:35.333	Reading characteristic 00002a6e-0000-1000-8000-00805f9b34fb
-      D	15:11:35.333	gatt.readCharacteristic(00002a6e-0000-1000-8000-00805f9b34fb)
-      I	15:11:35.440	Read Response received from 00002a6e-0000-1000-8000-00805f9b34fb, value: (0x) 9B-0F
-      A	15:11:35.440	"39.95℃" received
-      V	15:11:36.977	Reading characteristic 00002a6f-0000-1000-8000-00805f9b34fb
-      D	15:11:36.977	gatt.readCharacteristic(00002a6f-0000-1000-8000-00805f9b34fb)
-      I	15:11:37.046	Read Response received from 00002a6f-0000-1000-8000-00805f9b34fb, value: (0x) 64-1A
-      A	15:11:37.046	"67.56%" received
-      V	15:11:38.425	Reading characteristic 00002a6e-0000-1000-8000-00805f9b34fb
-      D	15:11:38.425	gatt.readCharacteristic(00002a6e-0000-1000-8000-00805f9b34fb)
-      I	15:11:38.510	Read Response received from 00002a6e-0000-1000-8000-00805f9b34fb, value: (0x) D7-0D
-      A	15:11:38.511	"35.43℃" received
-      V	15:11:39.889	Reading characteristic 00002a6f-0000-1000-8000-00805f9b34fb
-      D	15:11:39.889	gatt.readCharacteristic(00002a6f-0000-1000-8000-00805f9b34fb)
-      I	15:11:39.969	Read Response received from 00002a6f-0000-1000-8000-00805f9b34fb, value: (0x) BF-13
-      A	15:11:39.969	"50.55%" received
-   
-`
+      V  15:11:08.171  Connecting to B8:D6:1A:6A:B0:92...
+      D  15:11:08.171  gatt = device.connectGatt(autoConnect = false, TRANSPORT_LE, preferred PHY = LE 1M)
+      D  15:11:08.602  [Broadcast] Action received: android.bluetooth.device.action.ACL_CONNECTED
+      D  15:11:08.608  [Callback] Connection state changed with status: 0 and new state: CONNECTED (2)
+      I  15:11:08.608  Connected to B8:D6:1A:6A:B0:92
+      V  15:11:08.609  Discovering services...
+      D  15:11:08.609  gatt.discoverServices()
+      I  15:11:08.922  Connection parameters updated (interval: 7.5ms, latency: 0, timeout: 5000ms)
+      D  15:11:09.102  [Callback] Services discovered with status: 0
+      I  15:11:09.102  Services discovered
+      V  15:11:09.108  Generic Attribute (0x1801)
+        - Service Changed [I] (0x2A05)
+          Client Characteristic Configuration (0x2902)
+        Generic Access (0x1800)
+        - Device Name [R] (0x2A00)
+        - Appearance [R] (0x2A01)
+        - Central Address Resolution [R] (0x2AA6)
+        Unknown Service (00000002-0000-0000-fdfd-fdfdfdfdfdfd)
+        - Temperature [N R] (0x2A6E)
+        - Humidity [N R] (0x2A6F)
+      D  15:11:09.108  gatt.setCharacteristicNotification(00002a05-0000-1000-8000-00805f9b34fb, true)
+      I  15:11:09.190  Connection parameters updated (interval: 48.75ms, latency: 0, timeout: 5000ms)
+      V  15:11:15.374  Reading characteristic 00002a6e-0000-1000-8000-00805f9b34fb
+      D  15:11:15.374  gatt.readCharacteristic(00002a6e-0000-1000-8000-00805f9b34fb)
+      I  15:11:15.449  Read Response received from 00002a6e-0000-1000-8000-00805f9b34fb, value: (0x) 2E-09
+      A  15:11:15.450  "23.50℃" received
+      V  15:11:17.887  Reading characteristic 00002a6f-0000-1000-8000-00805f9b34fb
+      D  15:11:17.887  gatt.readCharacteristic(00002a6f-0000-1000-8000-00805f9b34fb)
+      I  15:11:17.980  Read Response received from 00002a6f-0000-1000-8000-00805f9b34
