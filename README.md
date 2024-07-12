@@ -1,8 +1,8 @@
 # Bluetooth Low Energy uisng ESP-IDF (BLE_ESP_IDF)
 
 ## To Do: 
-  - ### ***Write a code for the Development Board (ESP32 or Arduino board with bluetooth on it) that you choose to broadcast bluetooth services. (not a beacon)***
-  - ### ***Bonus Credit: Transfer WiFi credentials over bluetooth and connect to Wifi. (Use smartphone to send wifi credentials)***
+  - ### _Write a code for the Development Board (ESP32 or Arduino board with bluetooth on it) that you choose to broadcast bluetooth services. (not a beacon)_
+  - ### _Bonus Credit: Transfer WiFi credentials over bluetooth and connect to Wifi. (Use smartphone to send wifi credentials)_
 
 ## Services to broadcast:
 1. Temperature Measurement
@@ -35,34 +35,37 @@ _(Either interface the sensor with the development board or just write a functio
 ## Screenshots:
 1. Code compiled and uploaded successfully
 
-    - ![Code Compiled and Uploaded successfully](https://github.com/user-attachments/assets/8a8cccaa-d5ec-45ea-a8ec-2e5005f6ed61)
+    -
+      ![Code Compiled and Uploaded successfully](https://github.com/user-attachments/assets/8a8cccaa-d5ec-45ea-a8ec-2e5005f6ed61)
 
 2. BLE Advertisement Started and Connected
    
-    - ![BLE Advertisement Phase + Connection Phase](https://github.com/user-attachments/assets/c82f458c-9e12-4310-8175-169ad77e98b3)
+    -
+      ![BLE Advertisement Phase + Connection Phase](https://github.com/user-attachments/assets/c82f458c-9e12-4310-8175-169ad77e98b3)
 
 3. BLE Data Read Request from remote client
    
-    - ![BLE sample data read request from client](https://github.com/user-attachments/assets/c5bc4776-3636-46d2-9b13-9d8ba5993568)
+    -
+      ![BLE sample data read request from client](https://github.com/user-attachments/assets/c5bc4776-3636-46d2-9b13-9d8ba5993568)
 
 4. BLE Data Received from ESP-32 and displayed on nRF Connect App
 
     - Console:
 
-        - ![Console display during request](https://github.com/user-attachments/assets/98ee7c46-c333-42a2-b4c9-29f1ff26b649)
+        -
+          ![Console display during request](https://github.com/user-attachments/assets/98ee7c46-c333-42a2-b4c9-29f1ff26b649)
     
     - nRF Connect Mobile App:
 
-        - ![Temperature & Humidity Mobile Screenshot](https://github.com/user-attachments/assets/5ad80667-252a-4004-8631-6401ace8bbe7)
+        -
+          ![Temperature & Humidity Mobile Screenshot](https://github.com/user-attachments/assets/5ad80667-252a-4004-8631-6401ace8bbe7)
 
 5. Ability to still function even after disconenction of remote device
 
   - Disconenction:
-    - ![Disconnection event screenshot](https://github.com/user-attachments/assets/58973849-273e-40cb-b160-25c5b6c0a7bb)
+    -
+      ![Disconnection event screenshot](https://github.com/user-attachments/assets/58973849-273e-40cb-b160-25c5b6c0a7bb)
 
   - Reconnection:
-    -  ![Connection after disconenction](https://github.com/user-attachments/assets/d82d9ec7-65c8-45bc-b1e8-f94f07185494)
-
-
-
-
+    -
+      ![Connection after disconenction](https://github.com/user-attachments/assets/d82d9ec7-65c8-45bc-b1e8-f94f07185494)
