@@ -23,14 +23,16 @@ _(Either interface the sensor with the development board or just write a functio
   - Humidity units: %
   - Used demo functions in order to create different instaneous values for temperature and humidity
   - Could not attempt for extra credit: Transfer WiFi credentials over bluetooth and connect to Wifi. (Use smartphone to send wifi credentials)
-  - Used the concepts of components to ease the overall process
-  - Created components for:
-    - bluetooth (consists functions that deal with Bluetooth Low Energy (BLE))
-    - humidity (consists function for generating random values within specified range)
-    - temperature (consists function for generating random values within specified range)
-  - main.c file consists the main entry point for the application (with infinite loop)
-  - After every specified duration of time, constantly update the temperature and humidity values
-  - After updation of values, calls the function specified in bluetooth component to update the value and notify the client  
+  - For reference, videos as well as log output are also provided
+  - Technical Aspects:
+    - Used the concepts of components to ease the overall process
+    - Created components for:
+      - bluetooth (consists functions that deal with Bluetooth Low Energy (BLE))
+      - humidity (consists function for generating random values within specified range)
+      - temperature (consists function for generating random values within specified range)
+    - main.c file consists the main entry point for the application (with infinite loop)
+    - After every specified duration of time, constantly update the temperature and humidity values
+    - After updation of values, calls the function specified in bluetooth component to update the value and notify the client  
 
 
 ## Screenshots:
